@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app
+  namespace: my-quarkus-app-dev
+  cluster: .apps.cluster-kn5qr.kn5qr.sandbox262.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/demo-backstage/sample-quarkus2
+  org: demo-backstage
+  name: sample-quarkus2
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app
+  tag: latest
